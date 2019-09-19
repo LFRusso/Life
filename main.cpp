@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-    Game game(1000, 600);
+    Game game(500, 300);
 
     game.gameLoop();
 

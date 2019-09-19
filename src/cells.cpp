@@ -5,7 +5,15 @@
 
 void Cells::addCell(sf::Vector2i position)
 {
-    state[position.x*0.1][position.y*0.1] = 1;
+    switch (state[position.x*0.1][position.y*0.1])
+    {
+        case 1:
+            state[position.x*0.1][position.y*0.1] = 0;
+            break;
+        case 0:
+            state[position.x*0.1][position.y*0.1] = 1;
+            break;
+    }
     this->cell_count += 1;
 }
 

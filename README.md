@@ -1,6 +1,6 @@
 # Life
 
-![image](imgs/imag.png)
+![image](imgs/life.gif)
 
 Game of Life game made with C++ and SFML
 
