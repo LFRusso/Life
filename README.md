@@ -17,7 +17,7 @@ Download the dependencies just go to the [SFML](https://www.sfml-dev.org/downloa
 
 After drawing your cells, press **SPACE** to run the game and **ESCAPE** to pause again.
 
-## Portugẽs
+## Português
 
 Jogo Game of Life feito em C++ com a biblioteca SFML.
 
