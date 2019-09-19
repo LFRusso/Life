@@ -20,6 +20,8 @@ void Game::handleInput()
             run_state = true;
         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
             run_state = false;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::K))
+            //cells.kill(); 
         break;
 
     case sf::Event::MouseButtonPressed:
